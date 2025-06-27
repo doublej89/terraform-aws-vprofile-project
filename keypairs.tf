@@ -1,0 +1,4 @@
+resource "aws_key_pair" "vprofilekey" {
+  key_name   = var.PRIV_KEY_PATH
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC9cXA/E9rtneJdG0h5ozzMdE/Lo4V+BAEaySlM/bUjTbrbFgwj63KAE6Fxl1+udak/9mK3MfTXPASdINU/iSR5cI7fhwXcIZcHeWyfcomFgdR3Bq/HiMr8/oPrv/DHWyg1QOsnvzx2tL5dJKoN9gvjQNNJ7SKhN696xOYC8O/zziagOJvMWxu8aeb5md1SnFSqb1V5em5htU18VXB3Hsqz3N24V1fCuvZKGMkRcPPntuoW8rBqHjtz58/oy2S3h1hYCpx7EfYaeVhIFkCV6oB+/41RlINQ7QLeiG9Yu1lZrtruleBGeijl5ksTQR8OAt12eDw5HFnk2O++ld3trUpAriyplNMz4qK8canyzhivxMHbaRtuI+rLr3UGuamZs8rYjfdEwuRlGg8jJJ5y/ofFOk2Kh/vXDUShiS1X0XokcNLuwtSwCxRXnmVSXO2F28rxPvjpfP7JpUPuLmpGfIHspWT3HgEM3WTIU47SmTiPEf/LDyfq25w3+tG/He2ycjM= USER@DESKTOP-T7NMKU9"
+}
